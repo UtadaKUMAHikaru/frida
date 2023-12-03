@@ -22,6 +22,7 @@ import cv2
 import os
 import colour
 import random
+import time
 
 from painting import Painting, BrushStroke
 from clip_attn.clip_attn import get_attention

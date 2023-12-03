@@ -143,7 +143,7 @@ class Options(object):
         parser.add_argument('--num_augs', type=int, default=30)
         parser.add_argument('--bin_size', type=int, default=3000)
 
-        parser.add_argument('--plan_gif_dir', type=str, default='/home/frida/Videos/frida/')
+        parser.add_argument('--plan_gif_dir', type=str, default='Videos/')
         parser.add_argument('--log_frequency', type=int, default=5)
 
         parser.add_argument("--output_dir", type=str, default="../outputs/", help='Where to write output to.')

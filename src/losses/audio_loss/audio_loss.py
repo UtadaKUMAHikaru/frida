@@ -1,3 +1,4 @@
+
 import argparse
 import math
 import os
@@ -8,6 +9,8 @@ import torchvision
 from torch import optim
 from tqdm import tqdm
 import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 import librosa
 import numpy as np
 import random
